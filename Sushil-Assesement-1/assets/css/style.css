@@ -1,0 +1,154 @@
+/* .font-header{}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@700&family=Source+Serif+Pro&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+.top-section {
+  padding: 5rem 0;
+  background: rgba(0, 0, 0, 1) url("../image/pexels-photo-3218467.jpeg")
+    no-repeat center/cover fixed;
+  color: #fff;
+  height: 140vh;
+}
+
+.top-menu {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(255, 254, 254);
+  margin: 6px 0;
+}
+
+.menu {
+}
+.menu {
+  padding-top: 0;
+  padding-bottom: 10px;
+  padding-right: 900px;
+  padding-left: 900px;
+}
+/*.menu line line-1 {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 100%;
+} */
+.top-section div h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+.top-section a {
+}
+.top-section div p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 580px;
+}
+.wrap {
+  /* display: flex; */
+}
+.top-section div img {
+  position: relative;
+  left: 750px;
+  padding: 50px 0px;
+}
+
+.tdown {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid rgb(252, 252, 252);
+  position: relative;
+  left: 890px;
+  margin: 80px 10px;
+}
+.section-about {
+  padding-bottom: 50px;
+}
+.readmore {
+  border-bottom: 2px solid black;
+}
+
+.section-about div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-about div p {
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.section-about div span {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.font-header {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+.font-paragraph {
+  font-family: "Playfair Display", serif;
+}
+.section-history {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.cards {
+  width: 32%;
+  line-height: 1.6;
+  text-align: center;
+}
+.cards img {
+  max-width: 100%;
+}
+.section-event {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.event-cont {
+  width: 100%;
+}
+.event-subs {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0px 600px;
+}
+.event-subs button {
+  background-color: white;
+  color: black;
+}
+.italic {
+  font-size: 40px;
+  font-weight: 600;
+}
+.section-event p {
+  font-size: 40px;
+  font-weight: 700;
+}
+.event-sub-style {
+  font-weight: 700;
+  font-size: 40px;
+}
